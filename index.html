@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <style>
+   
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Random Password Generator</h1>
+  </header>
+  <main>
+    <div>
+      <h1></h1>
+    </div>
+  <div class="box" >
+ <input type="text" placeholder="Generate Password" id="password" value="">
+</div>
+    <div class="box1">
+  <input type="checkbox"   id="number" value=""> <p>Random Numbers (0-9)</p>
+    </div>
+     <div class="box1">
+  <input type="checkbox"  id="lowercase" value=""> <p>Random Lowercase (a-z)</p>
+    </div>
+     <div class="box1">
+  <input type="checkbox" placeholder="Generate Password" id="uppercase" value=""> <p>Random UpperCase (A-Z)</p>
+    </div>
+     <div class="box1">
+  <input type="checkbox" placeholder="Generate Password" id="symbols" value=""> <p>Random Symbols (!@#$%^&*)</p>
+    </div>
+     <div class="box1">
+  <input type="checkbox" placeholder="Generate Password" id="ran-password" value=""> <p>Random Password</p>
+    </div>
+     
+ 
+<table>
+   <th><div id="button" class="btn1"onclick="showMe()">Generate</div></th>
+   <th><a  id="button" class="btn2" onclick="copyPassword()">Copy</a></th>
+</table>
+  </main>
+  <script src="js/myjava.js"></script>
+  </body>
+  </html>
+  
